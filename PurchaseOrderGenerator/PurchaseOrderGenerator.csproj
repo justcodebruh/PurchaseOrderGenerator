@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EdiFabric.Core" Version="9.8.7.3" />
+    <PackageReference Include="EdiFabric.Framework" Version="9.8.7.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="EdiFabric.Examples.X12.Common">
+      <HintPath>..\EdiFabric.Examples.X12.Common\bin\Debug\EdiFabric.Examples.X12.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EdiFabric.Examples.X12.Templates.V4010">
+      <HintPath>..\EdiFabric.Examples.X12.Templates.V4010\bin\Debug\EdiFabric.Examples.X12.Templates.V4010.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
